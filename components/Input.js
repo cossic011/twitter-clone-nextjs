@@ -30,7 +30,7 @@ const Input = () => {
       id: session.user.uid,
       text: input,
       userImg: session.user.image,
-      timestmap: serverTimestamp(),
+      timestamp: serverTimestamp(),
       name: session.user.name,
       username: session.user.username,
     });
